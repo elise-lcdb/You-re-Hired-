@@ -29,6 +29,33 @@ mongoose.connect('mongodb://elise:a0a0a0@ds119734.mlab.com:19734/nodejs-dev-1', 
 	}
 })
 
+
+
+
+//user
+
+app.post('/api/v1/utilisateur/add', UtilisateurController.createUtilisateur);
+app.get('/api/v1/utilisateur', UtilisateurController.getUtilisateur);
+app.get('/api/v1/utilisateur/:id', UtilisateurController.oneUtilisateur);
+app.get('/api/v1/utilisateur/remove/:id', UtilisateurController.removeUtilisateur);
+app.put('/api/v1/utilisateur/:id', UtilisateurController.updateUtilisateur);
+
+//code de William
+
+//app.get('/utilisateur', utilisateurController.getUtilisateur);
+//app.post('/createUtilisateur', utilisateurController.createUtilisateur);
+//app.get('/utilisateur/:id', utilisateurController.getUtilisateurById);
+//app.get('/utilisateur/:id/remove', utilisateurController.deleteUtilisateur);
+//app.post('/utilisateur/:id/update', utilisateurController.updateUtilisateur);
+
+
+//Projet
+app.post('/api/v1/projet/add', ProjetController.createProjet);
+app.get('/api/v1/projet', ProjetController.getProjet);
+app.get('/api/v1/projet/:id', ProjetController.oneProjet);
+app.get('/api/v1/projet/remove/:id', ProjetController.removeProjet);
+app.put('/api/v1/projet/:id', ProjetController.updateProjet);
+
 app.listen(port, () => {
 	console.log(`Server on on port ${port}`);
 })

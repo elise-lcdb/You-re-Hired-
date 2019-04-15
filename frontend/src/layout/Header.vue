@@ -15,11 +15,17 @@
                     <li class="nav-item">
                         <a class="col-md-2" href="#">Annonces</a>
                     </li>
+                       <li class="nav-item">
+                        <router-link tag="a" to="/SignUp" class="col-md-2">Inscription</router-link>
+                    </li>
+                      <li class="nav-item">
+                        <router-link tag="a" to="/SignIn" class="col-md-2">Connexion</router-link>
+                    </li>
                     <li class="nav-item">
                         <router-link tag="a" to="/Profil" class="">Profil</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="col-md-2" href="#">Déconnetion</a>
+                        <a class="col-md-2" href="#">Déconnexion</a>
                     </li>
                     
                 </ul>

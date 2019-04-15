@@ -16,7 +16,7 @@ export default{
     Header,
     Footer,
   },
-}
+};
 </script>
 
 <style lang="scss">

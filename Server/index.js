@@ -3,12 +3,15 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
+const UtilisateurController = require ('./Controllers/utilisateur.controller.js');
+const ProjetController = require ('./Controllers/projet.controller.js');
 var cors = require('cors');
 app.use(cors());
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
 app.use(bodyParser.json());
+
 
 app.use(function(req, res, next) {
 	res.setHeader('Content-type', 'application/json');
@@ -36,8 +39,8 @@ mongoose.connect('mongodb://elise:a0a0a0@ds119734.mlab.com:19734/nodejs-dev-1', 
 
 app.post('/api/v1/utilisateur/add', UtilisateurController.createUtilisateur);
 app.get('/api/v1/utilisateur', UtilisateurController.getUtilisateur);
-app.get('/api/v1/utilisateur/:id', UtilisateurController.oneUtilisateur);
-app.get('/api/v1/utilisateur/remove/:id', UtilisateurController.removeUtilisateur);
+app.get('/api/v1/utilisateur/:id', UtilisateurController.getUtilisateurById);
+app.get('/api/v1/utilisateur/remove/:id', UtilisateurController.deleteUtilisateur);
 app.put('/api/v1/utilisateur/:id', UtilisateurController.updateUtilisateur);
 
 //code de William

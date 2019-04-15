@@ -1,17 +1,17 @@
-const Utilisateur = require('../models/utilisateur.model.js');
+const Utilisateur = require('../Models/utilisateur.model.js');
 const fs = require('fs');
 
 
 exports.createUtilisateur = function(req, res) {
     console.log(req.body);
-    let Utilisateur = new utilisateur(
+    let utilisateur = new Utilisateur(
         {
-            username:req.body.username,
-            firstname:req.body.firstname,
-            name:req.body.name,
-            school:req.body.school,
-            mail:req.body.mail,
-            Password:req.body.Password         
+            username: req.body.username,
+            firstname: req.body.firstname,
+            name: req.body.name,
+            school: req.body.school,
+            mail: req.body.mail,
+            Password: req.body.Password         
         }
     );
 
@@ -19,7 +19,7 @@ exports.createUtilisateur = function(req, res) {
         if (err) {
             return next(err);
         }
-        res.send('Utilisateur Created successfully')
+        res.send(utilisateur)
     })
 };
 

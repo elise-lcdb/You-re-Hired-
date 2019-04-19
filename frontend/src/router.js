@@ -4,6 +4,7 @@ import Home from './views/Home.vue';
 import Profil from './views/Profil.vue';
 import SignUp from './views/SignUp.vue';
 import SignIn from './views/SignIn.vue';
+import annonce from './views/annonce.vue';
 
 Vue.use(Router);
 
@@ -30,6 +31,11 @@ export default new Router({
       path:'/SignIn',
       name:'SignIn',
       component: SignIn
+    },
+    {
+      path:'/annonce',
+      name:'annonce',
+      component: annonce
     }
   ],
 });

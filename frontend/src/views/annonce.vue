@@ -27,7 +27,9 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+      <br>
+       <h4><b>Rôle</b></h4>
+      <p>Artiste</p>
 
     <h4><b>Compétence clé</b></h4>
     <span class="badge badge-warning" style="background: #E3B68C !important; padding: 5px 10px;">VueJs</span>
@@ -41,7 +43,7 @@
 
       <h4><b>École</b></h4>
       <p>Ingésup</p>
-
+      <br>
       <h4><b>Contact</b></h4>
       <p>example@ynov.com</p>
       <br>

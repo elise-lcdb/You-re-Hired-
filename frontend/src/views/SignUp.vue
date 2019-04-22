@@ -1,10 +1,16 @@
 <template lang="html">
-  <div class="inscription">
-
-      <h1>Créer un compte</h1>
-
-      <div id="formulaire">
-      <form class="w-50 mx-auto">
+  <div class="connexion">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container col-md-6" style="background: white">
+      <div class="row">
+        <div class="col-md-8">
+          <br>
+    <h2>Créer un compte</h2>
+      <form >
           <div class="form-group">
               <input class="form-control" type="text" v-model="prenom" placeholder="Prénom">
           </div>
@@ -20,27 +26,44 @@
           <div class="form-group">
               <input class="form-control" type="password" v-model="confirmation" placeholder="Confirmation de mot de passe">
           </div>
-          <button class="col-xs-6 btn btn-secondary" type="button" name="button" v-on:click="SignUp(prenom, nom, email, mdp ,confirmation)">Inscription</button>
+          <br>
+          <center>
+          <button class="col-xs-6 btn btn-secondary" type="button" name="button" v-on:click="SignUp(prenom, nom, email, mdp ,confirmation)" style="background: #0F0F31 !important">Confirmer</button>
+        </center>
+        <br>
+        <router-link to="/SignIn" tag="a" style="font-size: 10px">
+        Déja un compte? Se Connecter.
+      </router-link>
+      <br>
       </form>
+    </div>
+    <div class="col-md-4" style="background: #373A5D">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img src="../assets/you're hired logo white.png" style="width: 100%">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    </div>
+    </div>
   </div>
-</div>
 </template>
 
-<style type="text/css">
+<style scoped>
 
-  h1{
-    margin-left: 370px;
-    margin-top: 50px;
-  }
+
   
   #formulaire{
     margin-top: 50px;
   }
-  button{
-    width: 300px;
-    height: 50px;
-    margin-left: 110px;
-    margin-top: 50px;
-  }
-</style>
 
+</style>

@@ -1,9 +1,13 @@
 <template>
   <div id="app">
-    <Header />
-    <div class="container">
+    <div v-if="$route.path != '/SignUp' " >
+    <Header v-if="$route.path != '/SignIn' " />
+  </div>
+    <div >
     <router-view/>
 </div>
+<br>
+<br>
     <Footer />
   </div>
 </template>
@@ -21,4 +25,12 @@ export default{
 
 <style lang="scss">
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+  body{
+    background: #F6F7F3;
+    font-family: 'Roboto', sans-serif;
+  }
 </style>

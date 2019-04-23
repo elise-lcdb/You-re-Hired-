@@ -45,6 +45,10 @@
     <textarea class="form-control" rows="5" v-model="description"></textarea>
   </div>
   <div class="form-group">
+    <label for="tva"><h4><b>Rôle</b></h4></label>
+    <input type="text" class="form-control" id="tva" v-model="role">
+  </div>
+  <div class="form-group">
     <label for="tva"><h4><b>Compétences Clés</b></h4></label>
     <input type="text" class="form-control" id="tva" v-model="competences">
   </div>
@@ -58,8 +62,8 @@
   </div>
  <!--  <button type="button" name="button" class="" v-on:click="formData(name,chef, description,membre, debut, fin)">Valider</button> -->
   <div style="float:right;">
-<button type="button" class="btn btn-success" style="width: 120px; margin-right: 10px"  @click="showProfile = false">Sauvegarder</button>
-<button type="button" class="btn btn-danger" style="width: 120px;" @click="showProfile = false">Supprimer</button>
+<button type="button" class="btn btn-success" style="width: 120px; margin-right: 10px">Sauvegarder</button>
+<button type="button" class="btn btn-danger" style="width: 120px;">Supprimer</button>
 
 </div>
 <br>

@@ -17,7 +17,7 @@
   <div class="home col-md-9">
   
   <empty class="col-md-2"></empty>
-  	<div class="annonce_block clearfix flexbox-container border_type_1">
+  	<div class="annonce_block clearfix flexbox-container border_type_1" style="background:white; padding: 30px 0">
         <div class="col-sm-2 col-md-2 type_job col-xs-6">
            <strong>Projet design</strong>
         </div>
@@ -36,8 +36,7 @@
              
         </div>
     <div class="col-sm-2 col-md-2 date_job col-xs-6">
-        <strong>Il y a </strong>
-        <span>3 heures</span>
+         <span>01/01/2019</span>
     </div>
     <div class="clearfix"></div>
     <div class="col-sm-1 col-md-1 voir_job col-xs-12">
@@ -47,8 +46,8 @@
     </div>
 </div>
     <empty class="col-md-2"></empty>
- <hr/>
- 	<div class="annonce_block clearfix flexbox-container border_type_2">
+ <br/>
+ 	<div class="annonce_block clearfix flexbox-container border_type_2" style="background:white; padding: 30px 0">
         <div class="col-sm-2 col-md-2 type_job col-xs-6">
               <strong>Projet informatique</strong><br>
         </div>
@@ -60,8 +59,7 @@
              <strong>recherche marketing</strong>
         </div>
     <div class="col-sm-2 col-md-2 date_job col-xs-6">
-        <strong>Il y a</strong>
-        <span>3 heures</span>
+         <span>01/01/2019</span>
     </div>
     <div class="clearfix"></div>
     <div class="col-sm-1 col-md-1 voir_job col-xs-12">
@@ -71,8 +69,8 @@
     </div>
 </div>
 <empty class="col-md-2"></empty>
- <hr/>
- 	<div class="annonce_block clearfix flexbox-container border_type_3">
+ <br/>
+ 	<div class="annonce_block clearfix flexbox-container border_type_3" style="background:white; padding: 30px 0">
         <div class="col-sm-2 col-md-2 type_job col-xs-6">
           <strong>Projet business</strong><br>
         </div>
@@ -85,8 +83,7 @@
              <strong>recherche marketing</strong>
         </div>
     <div class="col-sm-2 col-md-2 date_job col-xs-6">
-        <strong>Il y a</strong>
-        <span>3 heures</span>
+         <span>01/01/2019</span>
     </div>
     <div class="clearfix"></div>
     <div class="col-sm-1 col-md-1 voir_job col-xs-12">
@@ -97,8 +94,8 @@
 </div>
 
  <empty class="col-md-2"></empty>
- <hr/>
- 	<div class="annonce_block clearfix flexbox-container border_type_2">
+ <br/>
+ 	<div class="annonce_block clearfix flexbox-container border_type_2" style="background:white; padding: 30px 0">
         <div class="col-sm-2 col-md-2 type_job col-xs-6">
             <strong>Projet info</strong><br>
         </div>
@@ -111,8 +108,7 @@
           <strong>recherche marketing</strong>
         </div>
     <div class="col-sm-2 col-md-2 date_job col-xs-6">
-        <strong>Il y a</strong>
-        <span>3 heures</span>
+         <span>01/01/2019</span>
     </div>
     <div class="clearfix"></div>
     <div class="col-sm-1 col-md-1 voir_job col-xs-12">
@@ -123,8 +119,8 @@
 </div>
 
 <empty class="col-md-2"></empty>
-<hr/>
- 	<div class="annonce_block clearfix flexbox-container border_type_1">
+<br/>
+ 	<div class="annonce_block clearfix flexbox-container border_type_1" style="background:white; padding: 30px 0">
         <div class="col-sm-2 col-md-2 type_job col-xs-6">
            <strong>Projet info</strong><br>
         </div>
@@ -135,8 +131,7 @@
             <strong>recherche marketing</strong>
         </div>
     <div class="col-sm-2 col-md-2 date_job col-xs-6">
-        <strong>Il y a</strong>
-        <span>3 heures</span>
+         <span>01/01/2019</span>
     </div>
     <div class="clearfix"></div>
     <div class="col-sm-1 col-md-1 voir_job col-xs-12">
@@ -147,8 +142,8 @@
 </div>
  		
 <empty class="col-md-2"></empty>
-<hr/>	
- 	<div class="annonce_block clearfix flexbox-container border_type_3">
+<br/>	
+ 	<div class="annonce_block clearfix flexbox-container border_type_3" style="background:white; padding: 30px 0">
         <div class="col-sm-2 col-md-2 type_job col-xs-6">
          <strong>Projet info</strong><br>
         </div>
@@ -159,8 +154,7 @@
           <strong>recherche marketing</strong>
         </div>
     <div class="col-sm-2 col-md-2 date_job col-xs-6">
-        <strong>Il y a</strong>
-        <span>3 heures</span>
+        <span>01/01/2019</span>
     </div>
     <div class="clearfix"></div>
     <div class="col-sm-1 col-md-1 voir_job col-xs-12">

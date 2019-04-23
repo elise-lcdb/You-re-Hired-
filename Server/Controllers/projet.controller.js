@@ -7,6 +7,9 @@ exports.createProjet = (req, res) => {
 			userEmail: req.body.userEmail,
 			projectName: req.body.projectName,
 			description: req.body.description,
+			role: req.body.role,
+			skills: req.body.skills,
+			school: req.body.school
 		}
 	);
 	projet.save( (err) => {

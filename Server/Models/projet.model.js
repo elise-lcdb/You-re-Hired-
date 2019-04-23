@@ -8,6 +8,9 @@ let ProjetSchema = new Schema (
 		userEmail: String,
 		projectName: String,
 		description: String,
+		role: String,
+		skills: String,
+		school: String
 	}
 );
 

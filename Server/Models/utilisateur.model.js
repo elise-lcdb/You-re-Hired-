@@ -7,7 +7,8 @@ let UtilisateurSchema = new Schema({
 	name:String,
 	school:String,
     mail:String,
-    Password:String
+    password:String,
+    skills: String
 });
 
 

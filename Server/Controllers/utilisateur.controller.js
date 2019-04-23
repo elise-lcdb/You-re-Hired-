@@ -11,7 +11,8 @@ exports.createUtilisateur = function(req, res) {
             name: req.body.name,
             school: req.body.school,
             mail: req.body.mail,
-            Password: req.body.Password         
+            password: req.body.password,
+            skills: req.body.skills         
         }
     );
 

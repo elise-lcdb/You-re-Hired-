@@ -12,7 +12,7 @@
     </div>
     <br>
     <br>
-    <div class="container col-md-8" style="background: white;">
+    <div class="container col-md-8" style="background: white;" v-if="!editMode">
       <br>
       <h4><b>Description de l'offre</b></h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -48,10 +48,39 @@
       <p>example@ynov.com</p>
       <br>
       <div style="float:right">
-      <button type="button" class="btn btn-primary" style="width: 120px;" @click="showProfile = true">Modifier</button>
+      <button type="button" class="btn btn-primary" style="width: 120px;" @click="editMode = true">Modifier</button>
     </div>
     <br>
     <br>
+    </div>
+    <div class="container col-md-8" style="background: white;" v-if="editMode">
+      <form >
+  <div class="form-group">
+    <label for="price"><h4><b>Description</b></h4></label>
+    <textarea class="form-control" rows="5" v-model="description"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="tva"><h4><b>Rôle</b></h4></label>
+    <input type="text" class="form-control" id="tva" v-model="role">
+  </div>
+  <div class="form-group">
+    <label for="tva"><h4><b>Compétences Clés</b></h4></label>
+    <input type="text" class="form-control" id="tva" v-model="competences">
+  </div>
+  <div class="form-group">
+    <label for="tva"><h4><b>Ecole</b></h4></label>
+    <input type="text" class="form-control" id="tva" v-model="membre">
+  </div>
+  <div class="form-group">
+    <label for="tva"><h4><b>Contact</b></h4></label>
+    <input type="text" class="form-control" id="tva" v-model="membre">
+  </div>
+ <!--  <button type="button" name="button" class="" v-on:click="formData(name,chef, description,membre, debut, fin)">Valider</button> -->
+  <div style="float:right;">
+<button type="button" class="btn btn-success" style="width: 120px; margin-right: 10px" @click="editMode = false">Sauvegarder</button>
+<button type="button" class="btn btn-danger" style="width: 120px;" @click="editMode = false">Supprimer</button>
+</div>
+</form>
     </div>
 
 
@@ -62,7 +91,15 @@
 
 
 </template>
-
+<script>
+  export default{
+    data(){
+      return{
+        editMode: false,
+      }
+    }
+  }
+</script>
 <style type="text/css">
 
 
